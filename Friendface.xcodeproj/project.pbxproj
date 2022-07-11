@@ -11,6 +11,9 @@
 		BA20B532287CE52F00398CAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20B531287CE52F00398CAF /* ContentView.swift */; };
 		BA20B534287CE53000398CAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA20B533287CE53000398CAF /* Assets.xcassets */; };
 		BA20B537287CE53000398CAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA20B536287CE53000398CAF /* Preview Assets.xcassets */; };
+		BA20B53E287CE55300398CAF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20B53D287CE55300398CAF /* User.swift */; };
+		BA20B540287CE5D800398CAF /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20B53F287CE5D800398CAF /* Friend.swift */; };
+		BA20B542287CE97200398CAF /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20B541287CE97200398CAF /* UserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		BA20B531287CE52F00398CAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA20B533287CE53000398CAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA20B536287CE53000398CAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA20B53D287CE55300398CAF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BA20B53F287CE5D800398CAF /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		BA20B541287CE97200398CAF /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				BA20B52F287CE52F00398CAF /* FriendfaceApp.swift */,
 				BA20B531287CE52F00398CAF /* ContentView.swift */,
+				BA20B541287CE97200398CAF /* UserView.swift */,
+				BA20B53D287CE55300398CAF /* User.swift */,
+				BA20B53F287CE5D800398CAF /* Friend.swift */,
 				BA20B533287CE53000398CAF /* Assets.xcassets */,
 				BA20B535287CE53000398CAF /* Preview Content */,
 			);
@@ -139,6 +148,9 @@
 			files = (
 				BA20B532287CE52F00398CAF /* ContentView.swift in Sources */,
 				BA20B530287CE52F00398CAF /* FriendfaceApp.swift in Sources */,
+				BA20B542287CE97200398CAF /* UserView.swift in Sources */,
+				BA20B53E287CE55300398CAF /* User.swift in Sources */,
+				BA20B540287CE5D800398CAF /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
